@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import telegram from './telegram.png';
 import './App.css';
 import SignUp from './SignUp';
 
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={telegram} className="App-logo" alt="logo" />
         </header>
         <SignUp />
       </div>
